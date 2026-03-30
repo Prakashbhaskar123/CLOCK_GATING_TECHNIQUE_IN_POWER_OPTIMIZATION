@@ -1,0 +1,152 @@
+****************************************
+Report : timing
+	-path_type full
+	-delay_type max
+	-slack_lesser_than 1000.00
+	-max_paths 20
+	-sort_by slack
+Design : data_driven_new
+Version: U-2022.12-SP3
+Date   : Wed Mar 25 19:03:40 2026
+****************************************
+
+
+  Startpoint: D_prev_reg[31]
+               (rising edge-triggered flip-flop clocked by my_clk)
+  Endpoint: U51 (rising clock gating-check end-point clocked by my_clk)
+  Path Group: **clock_gating_default**
+  Path Type: max
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock my_clk (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  D_prev_reg[31]/CLK (DFFARX1_RVT)                        0.00       0.00 r
+  D_prev_reg[31]/QN (DFFARX1_RVT)                         0.10       0.10 f
+  U72/Y (XOR2X1_RVT)                                      0.11       0.21 r
+  U71/Y (NAND4X0_RVT)                                     0.06       0.27 f
+  U55/Y (OR4X1_RVT)                                       0.15       0.43 f
+  U51/A2 (OAI21X1_RVT)                                    0.00       0.43 f
+  data arrival time                                                  0.43
+
+  clock my_clk (rise edge)                                0.60       0.60
+  clock network delay (ideal)                             0.00       0.60
+  clock reconvergence pessimism                           0.00       0.60
+  U51/A3 (OAI21X1_RVT)                                               0.60 r
+  clock gating setup time                                 0.00       0.60
+  data required time                                                 0.60
+  ------------------------------------------------------------------------------
+  data required time                                                 0.60
+  data arrival time                                                 -0.43
+  ------------------------------------------------------------------------------
+  slack (MET)                                                        0.17
+
+
+  Startpoint: D_prev_reg[17]
+               (rising edge-triggered flip-flop clocked by my_clk)
+  Endpoint: U51 (rising clock gating-check end-point clocked by my_clk)
+  Path Group: **clock_gating_default**
+  Path Type: max
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock my_clk (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  D_prev_reg[17]/CLK (DFFARX1_RVT)                        0.00       0.00 r
+  D_prev_reg[17]/QN (DFFARX1_RVT)                         0.10       0.10 f
+  U93/Y (XOR2X1_RVT)                                      0.11       0.21 r
+  U92/Y (NAND4X0_RVT)                                     0.06       0.27 f
+  U76/Y (OR4X1_RVT)                                       0.15       0.43 f
+  U51/A1 (OAI21X1_RVT)                                    0.00       0.43 f
+  data arrival time                                                  0.43
+
+  clock my_clk (rise edge)                                0.60       0.60
+  clock network delay (ideal)                             0.00       0.60
+  clock reconvergence pessimism                           0.00       0.60
+  U51/A3 (OAI21X1_RVT)                                               0.60 r
+  clock gating setup time                                 0.00       0.60
+  data required time                                                 0.60
+  ------------------------------------------------------------------------------
+  data required time                                                 0.60
+  data arrival time                                                 -0.43
+  ------------------------------------------------------------------------------
+  slack (MET)                                                        0.17
+
+
+1
+****************************************
+Report : timing
+	-path_type full
+	-delay_type min
+	-slack_lesser_than 1000.00
+	-max_paths 20
+	-sort_by slack
+Design : data_driven_new
+Version: U-2022.12-SP3
+Date   : Wed Mar 25 19:03:40 2026
+****************************************
+
+
+  Startpoint: D_prev_reg[16]
+               (rising edge-triggered flip-flop clocked by my_clk)
+  Endpoint: U51 (rising clock gating-check end-point clocked by my_clk)
+  Path Group: **clock_gating_default**
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock my_clk (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  D_prev_reg[16]/CLK (DFFARX1_RVT)                        0.00       0.00 r
+  D_prev_reg[16]/QN (DFFARX1_RVT)                         0.10       0.10 f
+  U81/Y (XOR2X1_RVT)                                      0.07       0.17 f
+  U77/Y (NAND4X0_RVT)                                     0.04       0.21 r
+  U76/Y (OR4X1_RVT)                                       0.10       0.31 r
+  U51/A1 (OAI21X1_RVT)                                    0.00       0.31 r
+  data arrival time                                                  0.31
+
+  clock my_clk (fall edge)                                0.30       0.30
+  clock network delay (ideal)                             0.00       0.30
+  clock reconvergence pessimism                           0.00       0.30
+  U51/A3 (OAI21X1_RVT)                                               0.30 f
+  clock gating hold time                                  0.00       0.30
+  data required time                                                 0.30
+  ------------------------------------------------------------------------------
+  data required time                                                 0.30
+  data arrival time                                                 -0.31
+  ------------------------------------------------------------------------------
+  slack (MET)                                                        0.01
+
+
+  Startpoint: D_prev_reg[30]
+               (rising edge-triggered flip-flop clocked by my_clk)
+  Endpoint: U51 (rising clock gating-check end-point clocked by my_clk)
+  Path Group: **clock_gating_default**
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock my_clk (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  D_prev_reg[30]/CLK (DFFARX1_RVT)                        0.00       0.00 r
+  D_prev_reg[30]/QN (DFFARX1_RVT)                         0.10       0.10 f
+  U60/Y (XOR2X1_RVT)                                      0.07       0.17 f
+  U56/Y (NAND4X0_RVT)                                     0.04       0.21 r
+  U55/Y (OR4X1_RVT)                                       0.10       0.31 r
+  U51/A2 (OAI21X1_RVT)                                    0.00       0.31 r
+  data arrival time                                                  0.31
+
+  clock my_clk (fall edge)                                0.30       0.30
+  clock network delay (ideal)                             0.00       0.30
+  clock reconvergence pessimism                           0.00       0.30
+  U51/A3 (OAI21X1_RVT)                                               0.30 f
+  clock gating hold time                                  0.00       0.30
+  data required time                                                 0.30
+  ------------------------------------------------------------------------------
+  data required time                                                 0.30
+  data arrival time                                                 -0.31
+  ------------------------------------------------------------------------------
+  slack (MET)                                                        0.01
+
+
+1
