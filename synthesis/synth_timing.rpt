@@ -1,0 +1,211 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : data_driven_new
+Version: T-2022.03-SP5-4
+Date   : Wed Mar 25 16:12:05 2026
+****************************************
+
+Operating Conditions: ss0p95v125c   Library: saed32rvt_ss0p95v125c
+Wire Load Model Mode: enclosed
+
+  Startpoint: D_prev_reg[17]
+              (rising edge-triggered flip-flop)
+  Endpoint: clk_g (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  data_driven_new    8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  D_prev_reg[17]/CLK (DFFARX1_RVT)         0.00       0.00 r
+  D_prev_reg[17]/QN (DFFARX1_RVT)          0.10       0.10 f
+  U93/Y (XOR2X1_RVT)                       0.11       0.21 r
+  U92/Y (NAND4X0_RVT)                      0.06       0.27 f
+  U76/Y (OR4X1_RVT)                        0.15       0.43 f
+  U51/Y (OAI21X1_RVT)                      0.12       0.55 r
+  U53/Y (INVX1_RVT)                        0.06       0.62 f
+  clk_g (out)                              0.00       0.62 f
+  data arrival time                                   0.62
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Q_reg[31] (rising edge-triggered flip-flop)
+  Endpoint: Q[31] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  data_driven_new    8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  Q_reg[31]/CLK (DFFARX1_RVT)              0.00       0.00 r
+  Q_reg[31]/Q (DFFARX1_RVT)                0.18       0.18 r
+  Q[31] (out)                              0.00       0.18 r
+  data arrival time                                   0.18
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Q_reg[30] (rising edge-triggered flip-flop)
+  Endpoint: Q[30] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  data_driven_new    8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  Q_reg[30]/CLK (DFFARX1_RVT)              0.00       0.00 r
+  Q_reg[30]/Q (DFFARX1_RVT)                0.18       0.18 r
+  Q[30] (out)                              0.00       0.18 r
+  data arrival time                                   0.18
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Q_reg[29] (rising edge-triggered flip-flop)
+  Endpoint: Q[29] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  data_driven_new    8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  Q_reg[29]/CLK (DFFARX1_RVT)              0.00       0.00 r
+  Q_reg[29]/Q (DFFARX1_RVT)                0.18       0.18 r
+  Q[29] (out)                              0.00       0.18 r
+  data arrival time                                   0.18
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Q_reg[28] (rising edge-triggered flip-flop)
+  Endpoint: Q[28] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  data_driven_new    8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  Q_reg[28]/CLK (DFFARX1_RVT)              0.00       0.00 r
+  Q_reg[28]/Q (DFFARX1_RVT)                0.18       0.18 r
+  Q[28] (out)                              0.00       0.18 r
+  data arrival time                                   0.18
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Q_reg[27] (rising edge-triggered flip-flop)
+  Endpoint: Q[27] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  data_driven_new    8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  Q_reg[27]/CLK (DFFARX1_RVT)              0.00       0.00 r
+  Q_reg[27]/Q (DFFARX1_RVT)                0.18       0.18 r
+  Q[27] (out)                              0.00       0.18 r
+  data arrival time                                   0.18
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Q_reg[26] (rising edge-triggered flip-flop)
+  Endpoint: Q[26] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  data_driven_new    8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  Q_reg[26]/CLK (DFFARX1_RVT)              0.00       0.00 r
+  Q_reg[26]/Q (DFFARX1_RVT)                0.18       0.18 r
+  Q[26] (out)                              0.00       0.18 r
+  data arrival time                                   0.18
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Q_reg[25] (rising edge-triggered flip-flop)
+  Endpoint: Q[25] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  data_driven_new    8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  Q_reg[25]/CLK (DFFARX1_RVT)              0.00       0.00 r
+  Q_reg[25]/Q (DFFARX1_RVT)                0.18       0.18 r
+  Q[25] (out)                              0.00       0.18 r
+  data arrival time                                   0.18
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Q_reg[24] (rising edge-triggered flip-flop)
+  Endpoint: Q[24] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  data_driven_new    8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  Q_reg[24]/CLK (DFFARX1_RVT)              0.00       0.00 r
+  Q_reg[24]/Q (DFFARX1_RVT)                0.18       0.18 r
+  Q[24] (out)                              0.00       0.18 r
+  data arrival time                                   0.18
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Q_reg[23] (rising edge-triggered flip-flop)
+  Endpoint: Q[23] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  data_driven_new    8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  Q_reg[23]/CLK (DFFARX1_RVT)              0.00       0.00 r
+  Q_reg[23]/Q (DFFARX1_RVT)                0.18       0.18 r
+  Q[23] (out)                              0.00       0.18 r
+  data arrival time                                   0.18
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1
